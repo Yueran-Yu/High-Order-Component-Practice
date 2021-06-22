@@ -1,21 +1,18 @@
 import React from 'react';
-
 import UserProfile from './components/user-profile/user-profile.component';
-import UserList from './components/user-list/user-list.component';
-
-import './App.scss';
+import './App.scss'
 
 function App() {
   return (
     <div className='App'>
-      <UserList dataSource='https://jsonplaceholder.typicode.com/users' />
+      <h1>Hello</h1>
       <UserProfile
         name='Yihua'
         email='yihuazhang@gmail.com'
-        dataSource='https://jsonplaceholder.typicode.com/posts'
       />
     </div>
   );
 }
-
+// Components are just functions and classes that receives some props
+// In a same manner, a higher-component is just function that gets a component and returns us a enhanced component
 export default App;
