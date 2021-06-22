@@ -13,6 +13,7 @@ function App() {
     </div>
   );
 }
+// update
 // Components are just functions and classes that receives some props
 // In a same manner, a higher-component is just function that gets a component and returns us a enhanced component
 export default App;
