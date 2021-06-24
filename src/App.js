@@ -1,14 +1,16 @@
 import React from 'react';
-import UserProfile from './components/user-profile/user-profile.component';
+import EnhancedUserProfile from './components/user-profile/user-profile.component';
+import EnhancedUserList from "./components/user-list/user-list.component";
 import './App.scss'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hello</h1>
-      <UserProfile
+      <EnhancedUserList dataSource='https://jsonplaceholder.typicode.com/users'/>
+      <EnhancedUserProfile
         name='Yihua'
         email='yihuazhang@gmail.com'
+        dataSource ='https://jsonplaceholder.typicode.com/posts'
       />
     </div>
   );

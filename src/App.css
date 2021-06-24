@@ -1,8 +1,7 @@
 .App {
   display: flex;
   justify-content: center;
-  padding: 40px;
-  color: aqua; }
+  padding: 40px; }
 
 .container {
   width: 45%;
